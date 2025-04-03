@@ -12,7 +12,9 @@ Tenemos como objetivo:
 	- Como podemos obtener información pública con protocolo whois, web DoaminTools y DSNrecon.
 
 El protocolo WHOIS permite obtener información registrada de dominios en Internet, como el propietario del dominio, los servidores de nombres, la fecha de creación y expiración, etc.
+
 DomainTools es un servicio en línea que te permite buscar información sobre dominios, historial de registros, y más. Ofrece herramientas avanzadas de análisis de dominio y vigilancia.
+
 DNSRecon es una herramienta que permite realizar consultas de DNS para obtener información sobre un dominio, como registros de tipo A, MX, NS, y más. Puede ayudarte a identificar la infraestructura de servidores y otros recursos asociados a un dominio.
 
 	- Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
