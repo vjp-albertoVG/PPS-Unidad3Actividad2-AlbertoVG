@@ -63,12 +63,33 @@ a
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 	- Identifica los equipos de la Red con Nmap.
+
+	a
+
 	- Realiza análisis de puertos en las MV.
+
+   	a
+  
 	- Encuentra los Servicios y Sistemas Operativos de las MV.
+
+	a
+
 	- Inspecciona los puertos con nikto.
+
+   	 a
+   
 	- Busca las vulnerabilidades de las MV con los scripts de Nmap.
+
+	a
+
 	- Localiza los servicios web que tienen las diferentes máquinas (Wfuzz y Dirb).
+
+   	a
+  
 	- Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
+
+   	a
+  
 ---	
 ## ENTREGA
 
