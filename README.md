@@ -60,34 +60,34 @@ También puedes buscar y filtrar exploits por plataforma, como Linux, Windows, e
  
 - Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es
 
-![](/Images/imagen1.png)
+![](/images/imagen1.png)
   
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 
-	![](/Images/imagen2.png)
+	![](/images/imagen2.png)
 
 	- Identifica los equipos de la Red con Nmap.
 
-	![](/Images/imagen3.png)
+	![](/images/imagen3.png)
 
 	- Realiza análisis de puertos en las MV.
   
 	- Encuentra los Servicios y Sistemas Operativos de las MV.
 
-	![](/Images/imagen4.png)
+	![](/images/imagen4.png)
 
 	- Inspecciona los puertos con nikto.
 
-   	![](/Images/imagen5.png)
+   	![](/images/imagen5.png)
    
 	- Busca las vulnerabilidades de las MV con los scripts de Nmap.
 
-	![](/Images/imagen6.png)
+	![](/images/imagen6.png)
   
 	- Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
 
-   	![](/Images/imagen7.png)
+   	![](/images/imagen7.png)
   
 ---	
 ## ENTREGA
