@@ -20,24 +20,26 @@ DNSRecon es una herramienta que permite realizar consultas de DNS para obtener i
 	- Cómo podemos utilizar Nmap y nikto,   para buscar equipos, puertos abiertos, servicios, vulnerabilidades.
 
 Nmap (Network Mapper) es una de las herramientas más utilizadas para escaneo de redes y auditoría de seguridad. Permite identificar hosts activos, puertos abiertos, servicios, y más.
+
 Nikto es una herramienta de escaneo web que busca vulnerabilidades conocidas en servidores web. Detecta configuraciones incorrectas, fallos de seguridad, versiones vulnerables, y más.
  
 	- Cómo utilizar Wfuzz, Dirb para localizar recursos web en servidores.
 
 Wfuzz es una herramienta utilizada para realizar pruebas de fuzzing en aplicaciones web, identificando recursos ocultos como directorios y archivos. Utiliza diccionarios para realizar solicitudes HTTP masivas.
+
 Dirb es una herramienta más simple que se utiliza para realizar ataques de fuerza bruta a directorios y archivos en aplicaciones web.
 
 	- Que scripts que podemos utilizar con Nmap para la búsqueda de vulnerabilidades.
 
 Algunos scripts comunes:
 
-  http-vuln-cve2006-3392: Detecta una vulnerabilidad en un servidor HTTP.
+http-vuln-cve2006-3392: Detecta una vulnerabilidad en un servidor HTTP.
 
-  smb-vuln-ms17-010: Detecta la vulnerabilidad conocida como EternalBlue (CVE-2017-0144).
+smb-vuln-ms17-010: Detecta la vulnerabilidad conocida como EternalBlue (CVE-2017-0144).
 
-  ftp-anon: Busca servidores FTP configurados de manera insegura (anónimos).
+ftp-anon: Busca servidores FTP configurados de manera insegura (anónimos).
 
-  ssl-heartbleed: Detecta la vulnerabilidad Heartbleed en servicios SSL/TLS.
+ssl-heartbleed: Detecta la vulnerabilidad Heartbleed en servicios SSL/TLS.
  
 	- Cómo podemos buscar información de explotación de vulnerabilidades con searchsploit
 
@@ -58,37 +60,37 @@ También puedes buscar y filtrar exploits por plataforma, como Linux, Windows, e
  
 - Instala en tu navegador la extensión de Shodan y muestra la información que tenemos tanto de ip, como de dominio del sitio http://iesvalledeljerteplasencia.es
 
-a
+![](/Images/imagen1.png)
   
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
 	- Identifica los equipos de la Red con Nmap.
 
-	a
+	![](/Images/imagen2.png)
 
 	- Realiza análisis de puertos en las MV.
 
-   	a
+   	![](/Images/imagen3.png)
   
 	- Encuentra los Servicios y Sistemas Operativos de las MV.
 
-	a
+	![](/Images/imagen4.png)
 
 	- Inspecciona los puertos con nikto.
 
-   	 a
+   	![](/Images/imagen5.png)
    
 	- Busca las vulnerabilidades de las MV con los scripts de Nmap.
 
-	a
+	![](/Images/imagen6.png)
 
 	- Localiza los servicios web que tienen las diferentes máquinas (Wfuzz y Dirb).
 
-   	a
+   	![](/Images/imagen7.png)
   
 	- Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
 
-   	a
+   	![](/Images/imagen8.png)
   
 ---	
 ## ENTREGA
