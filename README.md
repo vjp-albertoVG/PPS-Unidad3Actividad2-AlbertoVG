@@ -64,13 +64,14 @@ También puedes buscar y filtrar exploits por plataforma, como Linux, Windows, e
   
 - Sobre la red del laboratorio PPS con kali, bWAPP, Multidillae y DVWA:<
 	- Ayudándote del fichero docker-compose localiza las diferentes máquinas y puertos que deberían de tener abiertos.
-	- Identifica los equipos de la Red con Nmap.
 
 	![](/Images/imagen2.png)
 
-	- Realiza análisis de puertos en las MV.
+	- Identifica los equipos de la Red con Nmap.
 
-   	![](/Images/imagen3.png)
+	![](/Images/imagen3.png)
+
+	- Realiza análisis de puertos en las MV.
   
 	- Encuentra los Servicios y Sistemas Operativos de las MV.
 
@@ -83,14 +84,10 @@ También puedes buscar y filtrar exploits por plataforma, como Linux, Windows, e
 	- Busca las vulnerabilidades de las MV con los scripts de Nmap.
 
 	![](/Images/imagen6.png)
-
-	- Localiza los servicios web que tienen las diferentes máquinas (Wfuzz y Dirb).
-
-   	![](/Images/imagen7.png)
   
 	- Utiliza el comando searchsploit para buscar información de explotación de vulnerabilidades presentes en linux con kernel 5
 
-   	![](/Images/imagen8.png)
+   	![](/Images/imagen7.png)
   
 ---	
 ## ENTREGA
